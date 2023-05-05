@@ -6,12 +6,13 @@
 .container {
     border-bottom: 1px solid #e7e9fc;
     width: 1158px;
-    margin: 0 auto;
+    
     padding-left: 15px;
     padding-right: 15px;
 }
 .div-header {
     display: flex;
+    margin: 0 auto;
 }
 /* body */
 body {font-family:var(--main-font-family);
