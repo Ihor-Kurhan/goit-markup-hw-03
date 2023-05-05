@@ -5,17 +5,26 @@
 
 .container {
     border-bottom: 1px solid #e7e9fc;
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.div-header {
     display: flex;
 }
-
 /* body */
 body {font-family:var(--main-font-family);
     color: #434455;
     background-color:#FFFFFF;
 }
 /* def settings */
-.link {text-decoration: none;}
-.list {text-decoration: none;}
+.link {text-decoration: none;
+    margin-right: 76px}
+.list {text-decoration: none;
+    display: flex;
+    align-items: center;}
+
 .contact {font-style: normal;}
 img {display: block}
 
