@@ -6,7 +6,6 @@
 .container {
     border-bottom: 1px solid #e7e9fc;
     width: 1158px;
-    
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -21,10 +20,12 @@ body {font-family:var(--main-font-family);
 }
 /* def settings */
 .link {text-decoration: none;
-    margin-right: 76px}
+    margin-right: 76px;
+    gap: 40px;}
 .list {text-decoration: none;
     display: flex;
-    align-items: center;}
+    align-items: center;
+}
 
 .contact {font-style: normal;}
 img {display: block}
