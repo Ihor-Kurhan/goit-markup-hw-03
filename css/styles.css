@@ -4,8 +4,10 @@
 }
 
 .container {
-
+    border-bottom: 1px solid #e7e9fc;
+    display: flex;
 }
+
 /* body */
 body {font-family:var(--main-font-family);
     color: #434455;
@@ -15,6 +17,7 @@ body {font-family:var(--main-font-family);
 .link {text-decoration: none;}
 .list {text-decoration: none;}
 .contact {font-style: normal;}
+img {display: block}
 
 /* hero */
 .hero {background-color: #2e2f42}
