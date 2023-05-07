@@ -133,13 +133,20 @@ border-radius: 4px;
 /* sec2 */
 .hidden-features {
     color:#2e2f42;
+    margin-bottom: 8px;
 }
 .features-container {
     padding: 120px 0;
     display: flex;
     gap: 24px;
-
 }
+.features-container-list {
+    display: flex;
+    gap: 24px;}
+.firstlist-features-container {
+    width: calc((100% - 72px) / 4);
+}
+
 /* h3 What are we doing */
 .wawd {
     font-family: var(--main-font-family);
