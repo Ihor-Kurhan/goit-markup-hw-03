@@ -26,6 +26,7 @@ body {font-family:var(--main-font-family);
 .list {text-decoration: none;
     display: flex;
     align-items: center;
+    gap: 40px;
 }
 
 .contact {font-style: normal;}
