@@ -22,7 +22,7 @@ body {font-family:var(--main-font-family);
 }
 /* def settings */
 .link {text-decoration: none;
-    margin-right: 76px;}
+}
 .list {text-decoration: none;
     display: flex;
     align-items: center;
@@ -247,6 +247,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 text-decoration: none;
 color: #4D5AE5;
+margin-right: 76px;
 }
 .logo-stu {
 font-family: 'Raleway', sans-serif;
@@ -299,6 +300,7 @@ text-decoration: none;
 color: #4D5AE5;
 display: inline-block;
 margin-bottom: 16px;
+margin-right: 76px;
 }
 .logo-stu-foot {
     font-family: 'Raleway', sans-serif;
