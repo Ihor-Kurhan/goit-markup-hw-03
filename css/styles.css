@@ -2,14 +2,18 @@
     --main-font-family: 'Roboto', sans-serif;
     --secondary-font-family: 'Raleway', sans-serif;
 }
-
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
 .container {
-    border-bottom: 1px solid #e7e9fc;
     width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
     
+}
+.header-index {
+    border-bottom: 1px solid #e7e9fc;
 }
 .div-header {
     display: flex;
@@ -38,7 +42,6 @@ img {display: block}
     
 
 }
-
 .title-index {
     font-family: var(--main-font-family);
     font-weight: 700; 
@@ -47,8 +50,11 @@ img {display: block}
     letter-spacing: 0.02em;
     color: #FFFFFF;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #2E2F42;
     max-width: 496px;
+    
 }
 
     /* contacts */
@@ -100,7 +106,9 @@ font-family: var(--main-font-family);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-display: flex;
+display: block;
+margin-left: auto;
+margin-right: auto;
 align-items: center;
 letter-spacing: 0.04em;
 color: #FFFFFF;
