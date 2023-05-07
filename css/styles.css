@@ -60,6 +60,9 @@ img {display: block}
         color: #404BBF;}
 
     /* menu list */
+    .menu {
+        gap: 40px;
+    }
     .list {
         list-style: none;}
     .menu-list {
@@ -69,6 +72,9 @@ img {display: block}
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;  
+    gap: 40px;
+    padding: 24px 0;
+
 }
 .menu-list:hover,
 .menu-list:focus {
