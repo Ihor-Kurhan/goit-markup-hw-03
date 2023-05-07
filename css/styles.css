@@ -153,8 +153,6 @@ border-radius: 4px;
 }
 .features-container {
     padding: 120px 0;
-    display: flex;
-    gap: 24px;
 }
 .features-container-list {
     display: flex;
@@ -172,8 +170,12 @@ border-radius: 4px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
-    color: #2e2f42;
+   
     margin-bottom: 72px;
+}
+.wawd-list {
+    display: flex;
+    gap: 24px;
 }
 .wawd-sec {
     background-color: #F4F4FD;
@@ -234,7 +236,6 @@ border-radius: 4px;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     color:#2e2f42;
 }
 /* small-text p */
@@ -298,7 +299,6 @@ letter-spacing: 0.02em;
 /* footer */
 
 .footer-sec {
-    color: #F4F4FD;
     background-color: #2E2F42;
     padding: 100px 0;
 }
