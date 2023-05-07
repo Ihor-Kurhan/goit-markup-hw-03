@@ -157,10 +157,19 @@ border-radius: 4px;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 .wawd-sec {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
+    padding-bottom: 120px;
+
 }
+.wawd-img {
+    display: flex;
+    gap: 24px;
+    width: 464px;
+}
+
 /* list4 Our Team */
 .title-name-team {
     font-weight: 500;
@@ -178,12 +187,20 @@ border-radius: 4px;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 .our-team-sec {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
+    padding: 120px 0;
+
 }
 .team-img {
     background-color: #FFFFFF;
+}
+.our-team-list {
+    display: flex;
+    gap: 24px;
+    
 }
 
 /* h2 */
