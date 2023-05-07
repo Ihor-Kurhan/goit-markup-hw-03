@@ -134,6 +134,12 @@ border-radius: 4px;
 .hidden-features {
     color:#2e2f42;
 }
+.features-container {
+    padding: 120px 0;
+    display: flex;
+    gap: 24px;
+
+}
 /* h3 What are we doing */
 .wawd {
     font-family: var(--main-font-family);
