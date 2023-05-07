@@ -260,9 +260,11 @@ border-radius: 4px;
     display: flex;
     letter-spacing: 0.02em;
     color: #434455;
-    
-    
     }     
+.text-our-team {
+    text-align: center;
+    margin: 0;
+}
 /* logo */
 .logo-web {
 font-family: "Raleway", sans-serif;
@@ -320,7 +322,6 @@ font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
-display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
@@ -335,8 +336,7 @@ margin-right: 76px;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17x; 
-    display: flex;
+    line-height: 1.17; 
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
