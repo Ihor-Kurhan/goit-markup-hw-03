@@ -2,7 +2,7 @@
     --main-font-family: 'Roboto', sans-serif;
     --secondary-font-family: 'Raleway', sans-serif;
 }
-.h1,h2,h3,h4,h5,h6,p {
+h1,h2,h3,h4,h5,h6,p {
     margin: 0;
 }
 ul {margin: 0;
@@ -26,6 +26,7 @@ ul {margin: 0;
 }
 .div-header-portf {
     display: flex;
+    align-items: center;
 }
 /* body */
 body {font-family:var(--main-font-family);
@@ -41,7 +42,8 @@ body {font-family:var(--main-font-family);
 
 }
 
-.contact {font-style: normal;}
+.contact {font-style: normal;
+margin-left: auto;}
 img {display: block}
 
 /* hero */
@@ -161,6 +163,7 @@ background-color:#F4F4FD;
 color: #4D5AE5;
 cursor: pointer;
 border: 0;
+border-radius: 4px;
 padding: 12px 24px;
 border: 1px solid #e7e9fc;
 }
@@ -289,10 +292,18 @@ border: 1px solid #e7e9fc;
     font-family: var(--main-font-family);
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
     letter-spacing: 0.02em;
     color: #434455;
     }     
+.small-footer-text {
+    font-family: var(--main-font-family);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    max-width: 264px;
+}
+
 .text-our-team {
     text-align: center;
     margin: 0;
